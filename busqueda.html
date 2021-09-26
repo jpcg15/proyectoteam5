@@ -5,23 +5,89 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Busqueda</title>
+  
+  <style>
+    body{
+      background-color: skyblue;
+    }
+    #cabecera{
+      color: azure;
+      background-color: blue;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      font-weight:bold;
+      text-indent: 1em;
+      line-height: 50px;
+      height: 50px;
+      width: 100%;
+    }
+    nav{
+      background-color:aqua;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 15px;
+      line-height: 20px;
+      height: 40px;
+      width: 100%;
+    }
+    nav ul li{
+      float: left;
+      list-style: none;
+      margin: 10px;
+    }
+    .clearfix{
+      clear: both;
+    }
+    #barra{
+      padding: 20px;
+    }
+    #text{
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1px;
+      text-align: center;
+      font-size: 30px;
+    }
+    form{
+      background-color: yellow;
+      border-radius: 5px;
+      padding: 10px;
+      width: 485px;
+      height: 50px;
+      margin: auto;
+    }
+    input{
+      outline: none;
+      border: 0px;
+      border: solid 1px #ccc;
+      padding: 15px;
+    }
+  
+  </style>
+
 </head>
 <body>
   
   <!-- header -->
-  <div>
+  <div id="cabecera">
     <p>Hospedate.com</p>
   </div>
 
   <!-- navegacion -->
-  <div>
-    <a href="">Hoteles</a>
-    <a href="">Vuelos</a>
-  </div>
+  <nav>
+    <ul>
+      <li>
+        <a href="Hoteles.html">Hoteles</a>
+      </li>
+      <li>
+        <a href="Vuelos.html">Vuelos</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="clearfix"></div>
 
   <!-- barra de busqueda -->
-  <div>
-    <p>Encuentra el hotel que buscas con las mejores ofertas y mucho mas!!!
+  <div id="barra">
+    <p id="text">
+      Encuentra el hotel que buscas con las mejores ofertas y mucho mas!!!
     </p>
 
     <form action="">
