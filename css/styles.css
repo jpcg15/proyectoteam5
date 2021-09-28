@@ -1,0 +1,55 @@
+.p-header{
+  height: 100px;
+}
+
+.p-header-bar{
+  flex-wrap: nowrap;
+  width: 80%;
+ 
+}
+.p-header-main{
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
+.p-link{
+  text-decoration: none;
+
+  font-size:x-large;
+  font-weight: 500;
+}
+
+.p-group{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.p-drop{
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
+.p-form{
+  background-color: rgb(245, 164, 73);
+  width: 15%;
+  display: flex;
+}
+
+.p-form-input{
+  width: 90%;
+  padding-left: 15px;
+}
+
+.p-form-button{
+  display:flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  /* width:10px; */
+}
+
+.p-form-button-main {
+display:flex;
+justify-content: center;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtrado</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  
+  <!-- <div class="container">
+
+    <div class="header">
+      <h1>Hospedate.com</h1>
+    </div> -->
+<!-- 
+    <header class="p-header bg-primary"> -->
+<div class="container-fluid">
+      <header class="d-lg-flex justify-content-center bg-primary p-header ">
+      <!-- <nav class="d-md-flex p-header-bar"> -->
+        <nav class="row p-header-bar">
+        <div class="col p-header-main">
+          <div class="p-header-logo ">
+            <a class= "text-white p-link" href="">Hospedate.com</a>
+          </div>
+        </div>
+        <div class="col p-group p-button-group">
+          <!-- <div class="p-group-item">
+            <button type="button" class="btn btn-outline-ligth p-dropdown">Iniciar Sesion</button>
+          </div> -->
+<!-- Example single danger button -->
+<div class="dropdown p-drop">
+  <button class="btn btn-outline-light  btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Tu Cuenta
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+  </ul>
+</div>
+
+
+
+          
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- <p>Destination</p>
+    <input type="text" name="" id="">
+    <p>Check-In</p>
+    <input type="date" name="" id="">
+    
+    <p>Check-Out</p>
+    <input type="date" name="" id="">
+
+
+
+    <select name="2adults" id="adults">
+      <option value="3 adults">3 adults</option>
+      <option value="4 adults">4 adults </option>
+      <option value="5 adults">5 adults</option>
+      <option value="6 adults">6 adults</option>
+    </select>
+
+      <select name="1room" id="room">
+        <option value="3 room">3 room</option>
+        <option value="4 room">4 room </option>
+        <option value="5 room">5 room</option>
+        <option value="6 room">6 room</option>
+      </select>
+    
+ 
+      <select name="No children" id="children">
+        <option value="3 children">3 children</option>
+        <option value="4 children">4 children </option>
+        <option value="5 children">5 children</option>
+        <option value="6 children">6 children</option>
+      </select>
+    
+      <input type="button" value="Search">
+  
+  </div> -->
+  <div class="p-section">
+    <div class="p-form">
+  <form class="row g-3 p-form-input ">
+    <label for="" class="form-label"> Search</label>
+    <div class="col">
+      <label for="inputEmail4" class="form-label">Destination</label>
+      <input type="text" class="form-control" id="inputDestination">
+    </div>
+
+    <div class="w-100"></div> 
+    <div class="col">
+      <label for="inputCheckIn" class="form-label">Check-In Date</label>
+      <input type="date" class="form-control" id="inputCheckIn" value="Check-In">
+    </div>
+
+    
+    <div class="w-100"></div> 
+
+    <div class="col">
+      <label for="inputCheckOut" class="form-label">Check-Out Date</label>
+      <input type="date" class="form-control" id="inputCheckOut" value="Check-Out">
+    </div>
+
+    
+    <div class="w-100"></div> 
+    <div class="col">
+      <!-- <label for="inputAddress2" class="form-label">Address 2</label> -->
+      <input type="text" class="form-control" id="inputAddress2" placeholder="adults">
+    </div>
+
+    
+    <div class="w-100"></div>  
+    <div class="col">
+      <!-- <label for="inputCity" class="form-label">City</label> -->
+      <input type="text" class="form-control" id="inputCity" placeholder="No Children">
+    </div>
+  
+ 
+    <!-- <div class="col-md-2">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div> -->
+    <div class="p-form-button">
+    <div class="col-12 p-form-button-main  ">
+      <button type="submit" class="btn btn-primary btn-lg">Search</button>
+    </div>
+  </div>
+  </form>
+
+</div>
+
+</div>
+  
+</body>
+</html>
