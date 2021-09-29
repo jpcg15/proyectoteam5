@@ -1,0 +1,40 @@
+
+#header{
+background-color:slateblue;
+width:100%;
+height:50px;
+display: flex;
+
+}
+
+#seccion{
+
+    height:60% ;
+    padding: 100px;
+
+margin-right:auto;
+text-align: center;
+
+
+
+}
+#seccionsub{
+
+    padding: 5px;
+
+margin-right:auto;
+text-align: center;
+
+}
+#seccion2{
+
+  
+    text-align: center;
+    
+}
+footer {
+        display: block;
+        text-align: center;
+        padding: 30px;
+  
+}

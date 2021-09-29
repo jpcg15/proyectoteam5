@@ -3,21 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet"  href=../css/registro.css>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registro</title>
+  
+  <script type="text/javascript">
+    var textodeldiv = document.getElementById("encabezado").innerHTML;
+    var uno = document.getElementById('boton').innerHTML;
+    //Función recargar que cambia lo que hay en id="caja" por el contenido nuevo.
+      function recargar(){
+      /*  document.getElementById('email').style.display = 'none';*/
+        document.getElementById('boton').style.display = 'none';
+          document.getElementById("encabezado").innerHTML = "Crea contraseña";
+          document.getElementById("email").innerHTML = "Contraseña";
+          document.getElementsByName('email')[0].placeholder='contraseña';
+          document.getElementById('boton').innerHTML='crear cuenta';
+          document.getElementById("seccionsub").innerHTML=" <label id=contraseña2>Confirma contraseña </label> <input type='text' placeholder='contraseña'>  <br> <button type='button' id='boton'> Crear Cuenta </button>";
+          
+          
+      }
+    </script>
+
 </head>
 <body>
+
+  <div id="contenedor">
+  <div id="header"> <h3 style="color:#fcf8f8" > Hospedate.com </h3>
+
+  </div>
+  <div id="seccion">
   <form action="">
-    <h1>Iniciar Sesion o Crear una Cuenta</h1>
-    <label for="">Direccion de Email</label>
-    <input type="text">
-    <input type="button" value="Continuar con Email">  
+    
+
+    
+    <h2 id=encabezado>Iniciar Sesion o Crear una Cuenta</h2>
+    <label id=email>Email</label>
+
+    <input type="email" name="email" placeholder="juan@dominio.com">
+    
+    <button type="button" id="boton" onclick="recargar()"> Continuar por Email</button>
+    <div id="seccionsub"></div>
   
   </form>
+</div>
+<div id="seccion2">
+  <p>
+    Al iniciar sesión o al crear una cuenta, aceptas nuestros Términos y condiciones y la Política de privacidad
 
+  </p>
+</div>
 
   <footer>
-    <span>Todos los derechos Reservados</span>
+    <p>Todos los derechos Reservados</p>
   </footer>
+</div>
 </body>
 </html>
